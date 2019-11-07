@@ -21,7 +21,14 @@ printf("Sum of two numbers is %d \n",sum);
 return 0;  
 }  
 
+### Output  
+Enter two numbers  
+5  
+10  
+Sum of two numbers is 15  
 
+ 
+ 
  #### 2.To find average of n numbers 
 
 #include<stdio.h>  
@@ -29,9 +36,9 @@ int main()
 {  
 int n,i,a[10];  
 int sum=0,avg;  
-printf("Enter number of elements: \n");  
+printf("Enter value of n : \n");  
 scanf("%d",&n);  
-printf("Enter %d elements: \n ",n);  
+printf("Enter %d numbers: \n ",n);  
 for(i=0;i<n;i++)  
 {  
 scanf("%d",&a[i]);  
@@ -41,6 +48,17 @@ avg=sum/n;
 printf("Average is %d \n",avg);  
 return 0;                                            
 }  
+
+#### Output  
+Enter value of n  
+5  
+Enter 5 numbers  
+1  
+2  
+3  
+4  
+5  
+Average is 3  
 
 
  #### 3. To print week days using switch statement 
@@ -80,6 +98,10 @@ printf("Wrong choice \n");
 return 0;  
 }  
 
+#### Output  
+Enter the value of day  
+5  
+Friday  
 
  #### 4. To check whether a number is odd or even 
 
@@ -90,13 +112,16 @@ int number;
 printf("Enter any number");  
 scanf("%d",&number);  
 if(number%2==0)  
-printf("a is even");  
+printf("Number is even");  
 else  
-printf("a is odd");  
+printf("Number is odd");  
 return 0;  
 }  
 
-
+#### Output  
+Enter any number  
+5  
+Number is odd  
 
  #### 5. To print the table of 2
 
@@ -114,7 +139,21 @@ printf("%d * %d  = %d \n",a,i,b);
 return 0;  
 }  
 
-
+#### Output
+     The table of 2    
+     ----------------  
+     ----------------  
+ 2  *   1   =   2      
+ 2  *   2   =   4  
+ 2  *   3   =   6  
+ 2  *   4  =    8 
+ 2  *   5  =    10
+ 2  *   6  =    12
+ 2  *   7  =    14   
+ 2  *   8  =    16 
+ 2  *   9  =    18   
+ 2  *   10 =    20  
+          
 #### 6. To check whether a number is armstrong or not 
 
 #include<stdio.h>  
@@ -137,6 +176,11 @@ else
 printf("Not armstrong\n");  
 return 0;  
 }  
+
+#### Output  
+Enter any number 
+153
+Armstrong  
 
 
  #### 7. To print calculator 
@@ -192,6 +236,7 @@ printf("\n");
 return 0;  
 }  
 
+#### Output  
 
  #### 9. Binary Search  
 
