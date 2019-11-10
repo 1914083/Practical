@@ -1,10 +1,10 @@
 
 # Practical-file
-  #        **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
-##   NAME- *Tushar Garg*
+  #        **PROGRAMMING FOR PROBLEM SOLVING ESC-18104 **
+##   NAME- *prateek kant*
 ##   ROLL NO- *1915082*
-##   BRANCH- *COMPUTER SCIENCE & ENGINEERING*
-##   SECTION- *CS(B)*   
+##   BRANCH- *Civil ENGINEERING*
+##   SECTION- *CE(B1)*   
 
 
 
